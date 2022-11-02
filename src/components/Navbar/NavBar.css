@@ -1,0 +1,31 @@
+.menu-nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(39, 50, 50);
+}
+.menu-title{
+    color: rgb(238, 232, 232);
+}
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.menu-list{
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-text-stroke: 0.4px white;
+    color: rgb(2, 1, 1);
+}
+.menu-list:hover{
+    transition: .2s;
+    transform: scale(1.4);
+}
