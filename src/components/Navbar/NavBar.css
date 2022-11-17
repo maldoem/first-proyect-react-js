@@ -1,32 +1,50 @@
 
 .menu-nav{
-    
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 15px;
-    background-color: rgb(39, 50, 50);
+    background-color: rgb(7, 4, 118);
+    
 }
 .menu-title{
     color: rgb(238, 232, 232);
+    
 }
 .menu-item{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
-    list-style-type: none;
+    list-style: none;
     align-items: center;
-    
-}
-
-.menu-list{
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-text-stroke: 0.4px white;
-    color: rgb(2, 1, 1);
 }
 .menu-list:hover{
     transition: .2s;
-    transform: scale(1.4);
+    transform: scale(1.2);
+    text-decoration: none;
+}
+a.activar:link{
+    font-weight: bold;
+    text-decoration: none;
+}
+a.activar:visited{
+    color: rgb(218, 212, 212);
+    background-color: rgb(255, 255, 255);
+    border-radius: 40% 0;
+}
+a.activar:focus{
+    color: rgb(7, 7, 7);
+    background-color: rgb(238, 232, 232);
+    border-radius: 10% 0;
+}
+a.activar:hover{
+    color: rgb(6, 6, 6);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10% 0;
+}
+a.activar:active{
+    color: rgb(6, 6, 6);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10% 0;
 }

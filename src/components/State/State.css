@@ -1,0 +1,15 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+}
+h2{
+    color: black;
+}
+button{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
