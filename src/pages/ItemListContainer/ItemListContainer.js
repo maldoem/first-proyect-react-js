@@ -28,8 +28,10 @@ const ItemListContainer = () => {
   }, [categoryName]);
 
   return (
-    <div className="ilCont">
-      <ItemList products={items} />
+    <div >
+      <div className="ilCont">
+        <ItemList products={items} />
+      </div>
     </div>
   );
 };

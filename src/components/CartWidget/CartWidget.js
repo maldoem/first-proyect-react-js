@@ -1,7 +1,7 @@
 import React from 'react'
 import carro from '../../assets/carrito.png'
 import Notification from "../Notification/Notification";
-import State from '../State/State'
+import State from '../ItemCount/ItemCount'
 import './CartWidget.css'
 
 const CartWidget = () => {

@@ -1,10 +1,32 @@
 .cart{
+    padding: 140px 0;
     display: flex;
-    justify-content: center;
-    font-size: 50px;
+    justify-content: space-around;
+    font-size: 15px;
     background-color: cadetblue;
+}
+.cartDet{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 h2{
     color: black;
+}
+
+div.producto{
+    width: 400px;
+    display: flex;
+    border: solid red;
+    padding: 10px;
+}
+div.productoImg{
+    width: 50%;
+}
+.total{
+    padding-top: 50px;
+}
+.imgCart{
+    width: 90%;
     
 }

@@ -1,11 +1,13 @@
 .ilCont{
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 35px;
-    padding: 5%;
+    padding: 130px 5px;
     background-color: rgb(42, 37, 183);
+    
 }
 
 div.products{
@@ -18,7 +20,9 @@ div.products{
     padding: 5px;
     color: rgb(10, 10, 11);
     background-color:  rgb(87, 93, 166);
-    box-shadow: 5px 5px;
+    box-shadow: 5px 5px rgb(7, 4, 118);
+    border-radius: 10px;
+    
 }
 div.products:hover{
     transition: .2s;
@@ -27,5 +31,7 @@ div.products:hover{
 }
 img{
     width: 100%;
-    
+    border-radius: 10px;
 }
+
+
