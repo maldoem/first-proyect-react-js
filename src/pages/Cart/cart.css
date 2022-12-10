@@ -1,9 +1,10 @@
 .cart{
+    /* height: auto; */
     padding: 140px 0;
     display: flex;
     justify-content: space-around;
     font-size: 15px;
-    background-color: cadetblue;
+    background: linear-gradient(#371bd1, #110f1c);
 }
 .cartDet{
     display: flex;
@@ -15,13 +16,15 @@ h2{
 }
 
 div.producto{
-    width: 400px;
+    width: 60%;
     display: flex;
-    border: solid red;
+    border-bottom: solid red;
     padding: 10px;
+    
 }
 div.productoImg{
     width: 50%;
+    align-self: center;
 }
 .total{
     padding-top: 50px;

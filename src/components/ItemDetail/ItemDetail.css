@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(42, 37, 183);;
+    background: linear-gradient(#371bd1, #110f1c);
     padding: 4%;
 }
 .detalles{
@@ -14,5 +14,9 @@
     color: black;
     background-color: rgb(87, 93, 166);
     padding: 15px;
+    margin-top: 120px;
     border-radius: 20px;
+}
+.addButton{
+    text-align: center;
 }

@@ -4,7 +4,7 @@ import "./Item.css";
 const Item = ({ product }) => {
   return (
     <div className="products">
-      <img src={`images/${product.imagen}.jpg`} alt={product.nombre} />
+      <img src={`/images/${product.imagen}`} alt={product.nombre} />
       <h2 className="nombre">{product.nombre}</h2>
       
       <p className="price">${product.precio}</p>

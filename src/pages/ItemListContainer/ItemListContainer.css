@@ -1,4 +1,5 @@
 .ilCont{
+    
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -6,23 +7,23 @@
     justify-content: center;
     gap: 35px;
     padding: 130px 5px;
-    background-color: rgb(42, 37, 183);
+    
+    background: linear-gradient(#371bd1, #110f1c);
+    
+    /* background-color: rgb(42, 37, 183); */
     
 }
 
 div.products{
-    border: solid rgb(66, 57, 57) 3px;
     width: 250px;
     height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
     color: rgb(10, 10, 11);
     background-color:  rgb(87, 93, 166);
     box-shadow: 5px 5px rgb(7, 4, 118);
     border-radius: 10px;
-    
 }
 div.products:hover{
     transition: .2s;
@@ -31,7 +32,10 @@ div.products:hover{
 }
 img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 7px ;
+}
+h2.nombre{
+    text-align: center;
 }
 
 
