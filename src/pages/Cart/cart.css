@@ -11,8 +11,9 @@
     flex-direction: column;
     gap: 5px;
 }
-h2{
+.proddet h2{
     color: black;
+    margin: 0;
 }
 
 div.producto{
@@ -31,5 +32,8 @@ div.productoImg{
 }
 .imgCart{
     width: 90%;
-    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
 }

@@ -7,7 +7,7 @@ const ItemCount = ({setCount, count}) => {
   const removeItem = () =>{ 
     
     setCount((currentValue) =>{
-      if(currentValue>0){
+      if(currentValue>1){
         return currentValue - 1;
     } else{
       return currentValue
